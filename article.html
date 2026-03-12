@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEKIKAI - お知らせ詳細</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <section class="header-container" id="main-header">
+        <div class="header-content">
+          <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="HEKIKAI ロゴ" />
+          </a>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="hamburger">
+            <span></span><span></span><span></span>
+          </label>
+          <nav id="nav">
+            <ul>
+              <li><a href="service.html">事業案内</a></li>
+              <li><a href="company.html">会社概要</a></li>
+              <li><a href="pickup.html">ピックアップ</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="header-container" id="fixed-header">
+        <div class="header-content fixed-header-content">
+          <a href="index.html">
+            <img class="logo-fixed" src="img/logo.png" alt="HEKIKAI ロゴ" />
+          </a>
+          <input type="checkbox" id="nav-toggle-fixed" class="nav-toggle" />
+          <label for="nav-toggle-fixed" class="hamburger">
+            <span></span><span></span><span></span>
+          </label>
+          <nav id="nav-fixed">
+            <ul>
+              <li><a href="service.html">事業案内</a></li>
+              <li><a href="company.html">会社概要</a></li>
+              <li><a href="pickup.html">ピックアップ</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="other-hero-wrapper">
+        <img class="other-hero-img" src="img/hekikai-38.jpg" alt="お知らせ" />
+        <h1 data-en="news">お知らせ</h1>
+      </section>
+    </header>
+
+    <main>
+      <section class="hero-bottom">
+         <p>
+          <a href="index.html">ホーム</a> / 
+          <a href="news.html">お知らせ</a> / 
+          <span class="trans">記事詳細</span>
+        </p>
+      </section>
+
+      <section class="article-wrapper">
+        <article class="article-container">
+          
+          <div class="article-header">
+            <div class="article-meta">
+              <span class="article-tag">お知らせ</span>
+              <time class="article-date">2023.12.23</time>
+            </div>
+            <h1 class="article-title">年頭のご挨拶</h1>
+          </div>
+
+          <div class="article-content">
+            <p>新年あけましておめでとうございます。本年も海洋建設会社をよろしくお願い申し上げます。</p>
+            <p>昨年は、新型コロナウィルスの感染拡大により、世界中が大きな困難に直面しました。私たち海洋建設会社も、業務の遂行に多くの制約を受けるとともに、お客様や社員の安全・健康を最優先に考える必要がありました。このような状況の中でも、私たちは一丸となって、海洋開発のプロジェクトを進めてまいりました。私は、社員の皆様の努力と協力に心から感謝しております。</p>
+            <p>本年は、昨年以上に海洋開発の需要が高まると予想されます。私たちは、海洋の資源や環境を活用し、社会に貢献するという使命を持っています。そのためには、技術力の向上はもちろんのこと、お客様のニーズに応える柔軟性や創造性も必要です。私たちは、常に挑戦し、革新し、成長し続ける企業でありたいと思っております。</p>
+            <p>今年も、海洋建設会社は、お客様と社員と社会との信頼関係を築くことを目指してまいります。</p>
+          </div>
+          
+        </article>
+
+        <div class="article-footer-btn">
+          <a href="news.html" class="btn-white btn-back">一覧に戻る</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-wrapper">
+        <div class="footer-left">
+          <a href="index.html">
+            <img src="img/logo.png" alt="HEKIKAI ロゴ" class="footer-logo" />
+          </a>
+          <small class="copyright">©hekikai inc.</small>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-list">
+            <li><a href="service.html">事業案内</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li><a href="pickup.html">ピックアップ</a></li>
+            <li><a href="news.html">お知らせ</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
